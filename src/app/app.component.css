@@ -1,0 +1,123 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.simg2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(1000px);
+}
+
+.simg {
+    position: absolute;
+    width: 460.39px;
+    height: 540px;
+    left: 0px;
+    top: 0px;
+}
+
+.inner-container {
+    position: absolute;
+    width: 957px;
+    height: 540px;
+    left: 290px;
+    top: 81px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 24px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+}
+
+.heading {
+    position: absolute;
+    width: 201px;
+    height: 58px;
+    left: 625px;
+    top: 45.59px;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #39454A;
+}
+
+.paragraph {
+    position: absolute;
+    left: 588px;
+    top: 102.59px;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #bebebe;
+}
+
+.container2 {
+    position: absolute;
+    width: 399px;
+    height: 329px;
+    left: 546px;
+    top: 159.19px;
+}
+
+.inputfield1 {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    border-radius: 30px;
+    width: 330px;
+    height: 40px;
+}
+
+.inputfield2 {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    border-radius: 30px;
+    width: 330px;
+    height: 40px;
+}
+
+.btn {
+    position: absolute;
+    left: 107px;
+    top: 190px;
+    border-radius: 30px;
+    background-color: #72e4e1;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.paragraph2{
+    position: absolute;
+    width: 220px;
+    /* height: 46px; */
+    left: 64.17%;
+    right: 49.65%;
+    top: 415px;
+    font-family: system-ui;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #616161;
+}
+
+.google {
+    position: absolute;
+    width: 242.61px;
+    height: 52.45px;
+    left: 590px;
+    top: 469.89px;
+
+}
