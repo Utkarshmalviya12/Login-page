@@ -7,18 +7,21 @@
 
 
     <div class="container2">
-      
-      <input class="inputfield1" type="text" placeholder="awesome@user.com" name="uname" required>
+      <form [formGroup] = "loginForm" (ngsubmit)="loginUser()">
+        <input class="inputfield1" type="text" placeholder="awesome@user.com" formControlName="user" required>
+        <br><br><br><br>
+        <span style="color:red; margin: 15px;" *ngIf ="user && user.invalid && user.touched">User input field is not valid</span>
 
-      
-      <input class="inputfield2" type="password" placeholder="* * * * * * * * * *" name="psw" required>
+        <input class="inputfield2" type="password" placeholder="* * * * * * * * * *" formControlName="pass" required>
+        <br><br><br><br>
+        <span style="color:red; margin: 15px;" *ngIf ="pass && pass.invalid && pass.touched">Password input field is not valid</span>
         
-      <button class="btn" type="submit">Log In</button>
-
+        <button class="btn" type="submit">Log In</button>
+      </form>
     </div>
 
     <p class="paragraph2">Don't have an account?Signup!</p>
-  <img class="google" src="\assets\img\google.png" alt="google">
+    <img class="google" src="\assets\img\google.png" alt="google">
 
   </div>
 </div>
